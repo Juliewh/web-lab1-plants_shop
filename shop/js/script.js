@@ -133,6 +133,7 @@ const orderModal = document.querySelector('#order-modal');
 const closeModalButton = document.querySelector('.modal-close');
 
 checkoutButton.addEventListener('click', () => {
+    orderSuccess.hidden = true;
     orderModal.style.display = 'flex';
 });
 
